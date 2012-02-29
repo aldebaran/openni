@@ -6993,7 +6993,7 @@ XN_C_API XnStatus xnScriptNodeRun(XnNodeHandle hScript, XnEnumerationErrors* pEr
 #elif (CE4100)
 	#define XN_OPEN_NI_FILES_LOCATION "/usr/etc/ni/"
 #elif (XN_PLATFORM == XN_PLATFORM_LINUX_X86 || XN_PLATFORM == XN_PLATFORM_LINUX_ARM || XN_PLATFORM == XN_PLATFORM_MACOSX)
-	#define XN_OPEN_NI_FILES_LOCATION "/var/lib/ni/"
+	#define XN_OPEN_NI_FILES_LOCATION "/usr/share/ni/"
 #elif (XN_PLATFORM == XN_PLATFORM_ANDROID_ARM)
 	#define XN_OPEN_NI_FILES_LOCATION "/data/ni/"
 #else
